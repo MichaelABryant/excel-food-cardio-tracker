@@ -16,9 +16,9 @@ The data in the Diets_Data sheet was collected from [Mona S. Ottum's Essential B
 
 The data found on the page linked about was transformed into the format found on the Diets_Data page (from a lookup table to a table with Diet, Category, and Weight Consumed Per Day (g)). The units used in the table (ounces, teaspoons, and tablespoons) were converted to grams. The dry weights for whole grains, refined grains, and beans were converted to cooked weights.
 
-## Features of the Worksheet
+## Excel Sheets
 
-### Home sheet
+### Home
 
 <div align="center">
 <figure>
@@ -27,11 +27,50 @@ The data found on the page linked about was transformed into the format found on
 </figure>
 </div>
 
-### Log sheet
+### Log
 
-### Lookup sheet
+<div align="center">
+<figure>
+<img src="images/Log.jpg"><br/>
+  <figcaption>Figure 2: Log sheet for entering daily food, cardio, and drinks.</figcaption>
+</figure>
+</div>
+
+### Lookup
+
+<div align="center">
+<figure>
+<img src="images/Lookup.jpg"><br/>
+  <figcaption>Figure 3: Lookup sheet for referencing during calculations for Dashboard sheet.</figcaption>
+</figure>
+</div>
+
+### Diets_Data
+
+<div align="center">
+<figure>
+<img src="images/Diets_Data.jpg"><br/>
+  <figcaption>Figure 4: Diets_Data sheet which contains the data used to create a pivot chart and table which is displayed on the Dashboard sheet.</figcaption>
+</figure>
+</div>
+
+### Pivot_Data
+
+<div align="center">
+<figure>
+<img src="images/Pivot_Data.jpg"><br/>
+  <figcaption>Figure 5: Pivot_Data sheet which contains a pivot table and chart using the data from the Diets_Data sheet.</figcaption>
+</figure>
+</div>
 
 ### Dashboard
+
+<div align="center">
+<figure>
+<img src="images/Dashboard.jpg"><br/>
+  <figcaption>Figure 6: Dashboard sheet for displaying the checklist, total servings count, and charts for comparing your diet with Blue Zones and US diets.</figcaption>
+</figure>
+</div>
 
 ## Resources
 
