@@ -20,6 +20,8 @@ The data found on the page linked about was transformed into the format found on
 
 ### Home
 
+The Home sheet is the first sheet the user sees and provides links to navigate to other sheets in the file.
+
 <div align="center">
 <figure>
 <img src="images/Home.jpg"><br/>
@@ -28,6 +30,8 @@ The data found on the page linked about was transformed into the format found on
 </div>
 
 ### Log
+
+The Log sheet is where the user enters in their daily food, beverages, and cardio. The top row contains buttons to bring the user back to the Home sheet and to bring the user to the button of the log sheet (if the log sheet becomes too large to fit on the screen). A third button automates clearing all entries of the journal using a macro. The entries into the log restricted by data validation. The food category and unit of measurement can be chosen from the dropdown lists. The quantity must be a decimal. Finally, a hidden column calculates the servings based on a chart in the Lookup sheet. The formula uses INDEX() and MATCH() functions for lookup.
 
 <div align="center">
 <figure>
@@ -38,6 +42,8 @@ The data found on the page linked about was transformed into the format found on
 
 ### Lookup
 
+The Lookup sheet contains three tables that are refered to by equations on the Log and Dashboard sheets. The lists used for data validation on the Log sheet are the left two tables and the table used to calculate servings is the right table. The top row contains a button to bring the user back to the Home sheet.
+
 <div align="center">
 <figure>
 <img src="images/Lookup.jpg"><br/>
@@ -46,6 +52,8 @@ The data found on the page linked about was transformed into the format found on
 </div>
 
 ### Diets_Data
+
+The Diets_Data sheet contains the data collected about six different diets. The top row contains a button to bring the user back to the Home sheet.
 
 <div align="center">
 <figure>
@@ -56,6 +64,8 @@ The data found on the page linked about was transformed into the format found on
 
 ### Pivot_Diets
 
+The Pivot_Diets sheet contains the pivot table, pivot chart, and slicer generated from the Diets_Data sheet that is included on the Dashboard sheet.
+
 <div align="center">
 <figure>
 <img src="images/Pivot_Diets.jpg"><br/>
@@ -64,6 +74,8 @@ The data found on the page linked about was transformed into the format found on
 </div>
 
 ### Dashboard
+
+The Dashboard sheet provides the analysis of the user's diet by filling up a checklist (top left) and calculating servings of each item in the checklist and displaying them in a chart (top right). The bottom section is for comparing the user's diet with six other diets. A slicer is used to select the diet of interest. Calculations used for the chart are hidden to the right of the dashboard. These formulas use INDEX(), MATCH(), VLOOKUP(), and named ranges. A button in the top row allows the user to return to the Home sheet.
 
 <div align="center">
 <figure>
