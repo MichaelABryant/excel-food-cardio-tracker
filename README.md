@@ -20,6 +20,13 @@ The data found on the page linked about was transformed into the format found on
 
 ### Home sheet
 
+<div align="center">
+<figure>
+<img src="images/Home.jpg"><br/>
+  <figcaption>Figure 1: Home sheet with buttons to navigate Excel file.</figcaption>
+</figure>
+</div>
+
 ### Log sheet
 
 ### Lookup sheet
