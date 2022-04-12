@@ -54,11 +54,11 @@ The data found on the page linked about was transformed into the format found on
 </figure>
 </div>
 
-### Pivot_Data
+### Pivot_Diets
 
 <div align="center">
 <figure>
-<img src="images/Pivot_Data.jpg"><br/>
+<img src="images/Pivot_Diets.jpg"><br/>
   <figcaption>Figure 5: Pivot_Data sheet which contains a pivot table and chart using the data from the Diets_Data sheet.</figcaption>
 </figure>
 </div>
