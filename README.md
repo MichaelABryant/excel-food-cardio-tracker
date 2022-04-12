@@ -75,7 +75,7 @@ The Pivot_Diets sheet contains the pivot table, pivot chart, and slicer generate
 
 ### Dashboard
 
-The Dashboard sheet provides the analysis of the user's diet by filling up a checklist (top left) and calculating servings of each item in the checklist and displaying them in a chart (top right). The bottom section is for comparing the user's diet with six other diets. A slicer is used to select the diet of interest. Calculations used for the chart are hidden to the right of the dashboard. These formulas use INDEX(), MATCH(), and VLOOKUP(). A button in the top row allows the user to return to the Home sheet.
+The Dashboard sheet provides the analysis of the user's diet by filling up a checklist (top left) and calculating servings of each item in the checklist and displaying them in a chart (top right). The bottom section is for comparing the user's diet with six other diets. A slicer is used to select the diet of interest. Calculations used for the charts and checklist are hidden to the right of the dashboard. These formulas use INDEX(), MATCH(), and VLOOKUP(). The checklist uses conditional formatting to highlight the cells. A button in the top row allows the user to return to the Home sheet.
 
 <div align="center">
 <figure>
